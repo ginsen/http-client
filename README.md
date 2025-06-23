@@ -1,5 +1,11 @@
 # HttpClient
 
+[![Latest Stable Version](http://poser.pugx.org/ginsen/http-client/v)](https://packagist.org/packages/ginsen/http-client)
+[![Total Downloads](http://poser.pugx.org/ginsen/http-client/downloads)](https://packagist.org/packages/ginsen/http-client)
+[![Latest Unstable Version](http://poser.pugx.org/ginsen/http-client/v/unstable)](https://packagist.org/packages/ginsen/http-client)
+[![License](http://poser.pugx.org/ginsen/http-client/license)](https://packagist.org/packages/ginsen/http-client)
+[![PHP Version Require](http://poser.pugx.org/ginsen/http-client/require/php)](https://packagist.org/packages/ginsen/http-client)
+
 This library allows you to make several HTTP requests in parallel, reducing the overall time of the set of requests.
 
 You can use it for a single request by following the [PSR-18 HTTP Client](https://www.php-fig.org/psr/psr-18/), see the
