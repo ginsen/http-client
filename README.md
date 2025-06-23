@@ -1,12 +1,11 @@
 # HttpClient
 
-Esta librería permite hacer varias llamadas Http en paralelo, reduciendo el tiempo del conjunto de llamadas.
+This library allows you to make several HTTP requests in parallel, reducing the overall time of the set of requests.
 
-Podemos usarla para una única llamada cumpliendo el [PSR Http Client](), ver el fragmento de test.
+You can use it for a single request by following the [PSR-18 HTTP Client](https://www.php-fig.org/psr/psr-18/), see the
+test snippet.
 
 ```php
-<?php
-
 #[Test]
 public function it_should_handler_one_request_as_psr_18(): void
 {
@@ -21,12 +20,10 @@ public function it_should_handler_one_request_as_psr_18(): void
 }
 ```
 
-O podemos parar una colección de `Psr\Http\Message\RequestInterface` y recuperar un array de 
-`Psr\Http\Message\ResponseInterface`, ver test.
+Or you can send a collection of `Psr\Http\Message\RequestInterface` and retrieve an array of 
+`Psr\Http\Message\ResponseInterface`, see the test.
 
 ```php
-<?php
-
 #[Test]
 public function it_should_handler_several_requests(): void
 {
